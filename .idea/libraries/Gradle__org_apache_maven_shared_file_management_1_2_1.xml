@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.shared:file-management:1.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.shared/file-management/1.2.1/8f98bcaa7fd3625a172fd3de10bba8c32b9820ea/file-management-1.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/file-management/1.2.1/file-management-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.shared/file-management/1.2.1/98e45eed84f466638790f0db0b0e9f6c3b6b405/file-management-1.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

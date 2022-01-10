@@ -1,0 +1,13 @@
+apply from: "$rootDir/dependencies.gradle"
+
+dependencies {
+
+    compile libs.shiro
+    compile libs.eureka
+    compile project(":eager-platform-core")
+    compile project(":eager-platform-basic:eager-platform-basic-client")
+    compile project(":eager-platform-basic:eager-platform-basic-service")
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

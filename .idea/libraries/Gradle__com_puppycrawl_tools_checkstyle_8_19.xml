@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.puppycrawl.tools:checkstyle:8.19">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.puppycrawl.tools/checkstyle/8.19/b89d91993480a473c416f83677ad92dbede809fa/checkstyle-8.19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.puppycrawl.tools/checkstyle/8.19/4faab5554b799c93682d3a39794347bb56c1be3a/checkstyle-8.19-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

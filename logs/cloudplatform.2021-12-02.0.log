@@ -1,0 +1,7 @@
+2021-12-02 19:22:48,310 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-02 19:27:36,892 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-02 19:27:45,754 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 10.853 seconds (JVM running for 13.734)
+2021-12-02 19:29:47,024 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-02 19:35:36,992 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-02 19:35:48,305 [main] INFO  -[StartupInfoLogger.java:61]- Started BasicWebApplication in 15.038 seconds (JVM running for 18.605)
+2021-12-02 19:42:59,421 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.plugins:maven-javadoc-plugin:3.2.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-javadoc-plugin/3.2.0/f65507461614485b907c3c71a2730cfe65041c46/maven-javadoc-plugin-3.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-javadoc-plugin/3.2.0/6ee401343f67ecdf01761a8d88ddd88e9850db41/maven-javadoc-plugin-3.2.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

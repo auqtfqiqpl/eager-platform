@@ -1,0 +1,1268 @@
+2021-12-03 15:30:32,954 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:30:41,567 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 10.972 seconds (JVM running for 13.853)
+2021-12-03 15:33:43,105 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:33:57,731 [main] INFO  -[StartupInfoLogger.java:61]- Started BasicWebApplication in 18.228 seconds (JVM running for 22.773)
+2021-12-03 15:34:06,528 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:34:16,363 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 12.35 seconds (JVM running for 15.676)
+2021-12-03 15:34:18,987 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:34:19,117 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:34:19,118 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:34:19,121 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:34:19,121 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:34:19,121 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:34:19,146 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：41,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "7e710e34-e2d1-44b4-a02c-ad59adc027b4",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 15:34:19,244 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:34:26,455 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:34:34,139 [http-nio-8504-exec-4] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:34:52,990 [http-nio-8504-exec-5] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:34:52,995 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:34:52,996 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:34:52,996 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:34:52,997 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:34:52,997 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:34:53,007 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：12,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "3f41766b-09ef-422c-86d0-e2800cc56153",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 15:34:53,234 [http-nio-8504-exec-6] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:35:26,654 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:35:34,702 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 9.895 seconds (JVM running for 12.96)
+2021-12-03 15:36:33,135 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:36:33,235 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:36:33,236 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:36:33,238 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:36:33,238 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:36:33,238 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:36:33,261 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：39,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "eea74fff-956b-451a-9f55-c0d352fc0ce8",
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : true,
+  "fail" : false
+}
+2021-12-03 15:36:33,307 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:36:39,432 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:24,124 [http-nio-8504-exec-6] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:24,129 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:42:24,129 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:42:24,129 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:42:24,129 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:24,130 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:42:24,138 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：9,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "f761ef72-6832-4ecf-80fc-42c4cfcba6fa",
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : true,
+  "fail" : false
+}
+2021-12-03 15:42:26,407 [http-nio-8504-exec-7] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:26,422 [http-nio-8504-exec-4] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:26,425 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 15:42:26,426 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 15:42:26,426 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 15:42:26,426 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:26,427 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 15:42:26,427 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：2,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : false,
+  "fail" : true
+}
+2021-12-03 15:42:29,284 [http-nio-8504-exec-5] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:29,288 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:42:29,289 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:42:29,289 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:42:29,290 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:29,290 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:42:29,298 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：9,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "50fca2c4-f0b1-4009-b9cf-0abc4b6beb33",
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : true,
+  "fail" : false
+}
+2021-12-03 15:42:31,035 [http-nio-8504-exec-8] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:31,336 [http-nio-8504-exec-10] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:31,338 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 15:42:31,338 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 15:42:31,339 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 15:42:31,339 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:31,339 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 15:42:31,339 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : false,
+  "fail" : true
+}
+2021-12-03 15:42:34,115 [http-nio-8504-exec-9] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:34,119 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 15:42:34,119 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 15:42:34,119 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 15:42:34,120 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:34,120 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 15:42:34,125 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：6,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "a86753b9-3e6d-4f29-aaa5-b510950276fa",
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : true,
+  "fail" : false
+}
+2021-12-03 15:42:36,403 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:36,419 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 15:42:36,422 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 15:42:36,422 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 15:42:36,423 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 15:42:36,423 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 15:42:36,423 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 15:42:36,424 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "success" : false,
+  "fail" : true
+}
+2021-12-03 15:43:19,563 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:43:25,819 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 7.905 seconds (JVM running for 10.843)
+2021-12-03 15:44:52,341 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:45:06,282 [main] INFO  -[StartupInfoLogger.java:61]- Started BasicWebApplication in 17.284 seconds (JVM running for 20.901)
+2021-12-03 15:45:06,999 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:45:15,311 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 10.916 seconds (JVM running for 14.906)
+2021-12-03 15:57:15,569 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:57:22,012 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 8.062 seconds (JVM running for 11.22)
+2021-12-03 15:59:07,835 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:59:22,932 [main] INFO  -[StartupInfoLogger.java:61]- Started BasicWebApplication in 18.924 seconds (JVM running for 23.594)
+2021-12-03 15:59:23,941 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 15:59:33,043 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 12.094 seconds (JVM running for 16.296)
+2021-12-03 16:00:54,452 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:54,597 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:00:54,597 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:00:54,601 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:00:54,601 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:00:54,601 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:00:54,633 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：57,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "37dda70b-b1f6-4fff-9105-d24662d43c16",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:00:54,842 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:54,871 [http-nio-8504-exec-4] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:54,876 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:00:54,878 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:00:54,878 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:00:54,879 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:00:54,879 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:00:54,880 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：5,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:00:57,525 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:57,528 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:00:57,528 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:00:57,529 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:00:57,529 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:00:57,529 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:00:57,534 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：6,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "4409a327-a90d-44d4-a53d-3de902e5d9e1",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:00:57,551 [http-nio-8504-exec-6] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:57,857 [http-nio-8504-exec-5] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:00:57,861 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:00:57,862 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:00:57,862 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:00:57,862 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:00:57,862 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:00:57,862 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:02:25,071 [http-nio-8504-exec-7] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:25,075 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:02:25,075 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:02:25,075 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:02:25,075 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:25,075 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:02:25,081 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：7,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "80a83056-6750-4b4b-9120-87a0ad92f12e",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:02:27,601 [http-nio-8504-exec-8] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:27,901 [http-nio-8504-exec-9] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:27,903 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:02:27,904 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:02:27,904 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:02:27,904 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:27,905 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:02:27,905 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：2,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:02:34,591 [http-nio-8504-exec-10] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:34,593 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:02:34,594 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:02:34,595 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:02:34,595 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:34,595 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:02:34,600 [http-nio-8504-exec-10] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：7,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "a5962cb3-3c4f-4edc-8164-a8544e1d2bb0",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:02:37,788 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:38,087 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:38,089 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:02:38,090 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:02:38,090 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:02:38,090 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:38,090 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:02:38,091 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:02:51,085 [http-nio-8504-exec-4] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:51,087 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:02:51,088 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:02:51,088 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:02:51,088 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:51,088 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:02:51,093 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：6,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "09e8f9aa-8fef-46b0-8e2d-b5cf25bcbc0e",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:02:52,331 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:52,633 [http-nio-8504-exec-6] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:02:52,636 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:02:52,636 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:02:52,637 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:02:52,637 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:02:52,637 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:02:52,637 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:05:10,657 [http-nio-8504-exec-5] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:10,660 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:05:10,660 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:05:10,660 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:05:10,661 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:05:10,661 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:05:10,666 [http-nio-8504-exec-5] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：6,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "ad645b73-cd1c-44b7-90ba-5b49d513236c",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:05:12,404 [http-nio-8504-exec-7] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:12,708 [http-nio-8504-exec-8] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:12,712 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:05:12,712 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:05:12,713 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:05:12,713 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:05:12,713 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:05:12,713 [http-nio-8504-exec-8] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：1,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:05:28,449 [http-nio-8504-exec-9] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:28,452 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:05:28,452 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:05:28,452 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:05:28,452 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:05:28,452 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:05:28,457 [http-nio-8504-exec-9] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：6,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "5fee06ff-c44a-462c-b122-fd95744dd61b",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:05:30,119 [http-nio-8504-exec-10] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:30,132 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: .current.token=3f5726079ebd46c7855393ba7e089373
+2021-12-03 16:05:30,137 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/login
+2021-12-03 16:05:30,138 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:05:30,138 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.login
+2021-12-03 16:05:30,139 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:05:30,139 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:05:30,140 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/login】,Cost-Time：3,result:{
+  "status" : 401,
+  "message" : "您还未登录系统，请先登录！",
+  "data" : null,
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : true,
+  "success" : false
+}
+2021-12-03 16:05:59,211 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-03 16:06:07,836 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 10.564 seconds (JVM running for 13.601)
+2021-12-03 16:06:16,282 [http-nio-8504-exec-3] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 5fee06ff-c44a-462c-b122-fd95744dd61b
+2021-12-03 16:06:16,405 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-03 16:06:16,405 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-03 16:06:16,408 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-03 16:06:16,408 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:06:16,408 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-03 16:06:16,420 [http-nio-8504-exec-3] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：28,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "5fee06ff-c44a-462c-b122-fd95744dd61b",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:06:16,481 [http-nio-8504-exec-1] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 5fee06ff-c44a-462c-b122-fd95744dd61b
+2021-12-03 16:06:16,491 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/menu/getAll
+2021-12-03 16:06:16,492 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:06:16,492 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.menu.MenuController.getAll
+2021-12-03 16:06:16,493 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:06:16,493 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:06:17,407 [http-nio-8504-exec-1] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/menu/getAll】,Cost-Time：910,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : [ {
+    "id" : 1,
+    "code" : "sys",
+    "name" : "系统管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "xtgl",
+    "parentId" : 0,
+    "sort" : 1,
+    "subMenuList" : [ {
+      "id" : 2,
+      "code" : "menu",
+      "name" : "菜单管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/menu",
+      "parentId" : 1,
+      "sort" : 10,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 5,
+      "code" : "account",
+      "name" : "账号管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/account",
+      "parentId" : 1,
+      "sort" : 11,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 6,
+      "code" : "autoCode",
+      "name" : "生成代码",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-09T19:43:56",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/autoCode",
+      "parentId" : 1,
+      "sort" : 12,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 7,
+      "code" : "staff",
+      "name" : "人员表单",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-16T14:36:05",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/formView",
+      "parentId" : 1,
+      "sort" : 13,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 3,
+    "code" : "basic",
+    "name" : "基础管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:35",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "basic",
+    "parentId" : 0,
+    "sort" : 2,
+    "subMenuList" : [ {
+      "id" : 4,
+      "code" : "staff",
+      "name" : "人员管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:43",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/staff",
+      "parentId" : 3,
+      "sort" : 20,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 8,
+    "code" : "config",
+    "name" : "配置管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "config",
+    "parentId" : 0,
+    "sort" : 3,
+    "subMenuList" : [ {
+      "id" : 9,
+      "code" : "configView",
+      "name" : "页面配置",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T21:16:32",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/configView",
+      "parentId" : 8,
+      "sort" : 30,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  } ],
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-03 16:53:38,834 [http-nio-8504-exec-2] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 5fee06ff-c44a-462c-b122-fd95744dd61b
+2021-12-03 16:53:38,876 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/menu/getAll
+2021-12-03 16:53:38,878 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-03 16:53:38,878 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.menu.MenuController.getAll
+2021-12-03 16:53:38,878 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-03 16:53:38,879 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-03 16:53:38,960 [http-nio-8504-exec-2] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/menu/getAll】,Cost-Time：78,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : [ {
+    "id" : 1,
+    "code" : "sys",
+    "name" : "系统管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "xtgl",
+    "parentId" : 0,
+    "sort" : 1,
+    "subMenuList" : [ {
+      "id" : 2,
+      "code" : "menu",
+      "name" : "菜单管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/menu",
+      "parentId" : 1,
+      "sort" : 10,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 5,
+      "code" : "account",
+      "name" : "账号管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/account",
+      "parentId" : 1,
+      "sort" : 11,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 6,
+      "code" : "autoCode",
+      "name" : "生成代码",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-09T19:43:56",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/autoCode",
+      "parentId" : 1,
+      "sort" : 12,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 7,
+      "code" : "staff",
+      "name" : "人员表单",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-16T14:36:05",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/formView",
+      "parentId" : 1,
+      "sort" : 13,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 3,
+    "code" : "basic",
+    "name" : "基础管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:35",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "basic",
+    "parentId" : 0,
+    "sort" : 2,
+    "subMenuList" : [ {
+      "id" : 4,
+      "code" : "staff",
+      "name" : "人员管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:43",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/staff",
+      "parentId" : 3,
+      "sort" : 20,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 8,
+    "code" : "config",
+    "name" : "配置管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "config",
+    "parentId" : 0,
+    "sort" : 3,
+    "subMenuList" : [ {
+      "id" : 9,
+      "code" : "configView",
+      "name" : "页面配置",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T21:16:32",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/configView",
+      "parentId" : 8,
+      "sort" : 30,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  } ],
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-06 10:42:01,198 [http-nio-8504-exec-4] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 5fee06ff-c44a-462c-b122-fd95744dd61b
+2021-12-06 10:42:01,556 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/access/doLogin
+2021-12-06 10:42:01,562 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:65]- HTTP Method    : POST
+2021-12-06 10:42:01,562 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.access.LoginController.doLogin
+2021-12-06 10:42:01,563 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-06 10:42:01,563 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:71]- Request Args   : [ null, null, {
+  "username" : null,
+  "password" : null,
+  "salt" : null,
+  "user" : null
+} ]
+2021-12-06 10:42:01,620 [http-nio-8504-exec-4] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/access/doLogin】,Cost-Time：66,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : "4527f4b9-191e-447f-b133-10d478a7316e",
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-06 10:42:01,662 [http-nio-8504-exec-6] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 4527f4b9-191e-447f-b133-10d478a7316e
+2021-12-06 10:42:01,676 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/menu/getAll
+2021-12-06 10:42:01,677 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-06 10:42:01,678 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.menu.MenuController.getAll
+2021-12-06 10:42:01,678 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-06 10:42:01,678 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-06 10:42:01,868 [http-nio-8504-exec-6] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/menu/getAll】,Cost-Time：186,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : [ {
+    "id" : 1,
+    "code" : "sys",
+    "name" : "系统管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "xtgl",
+    "parentId" : 0,
+    "sort" : 1,
+    "subMenuList" : [ {
+      "id" : 2,
+      "code" : "menu",
+      "name" : "菜单管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/menu",
+      "parentId" : 1,
+      "sort" : 10,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 5,
+      "code" : "account",
+      "name" : "账号管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/account",
+      "parentId" : 1,
+      "sort" : 11,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 6,
+      "code" : "autoCode",
+      "name" : "生成代码",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-09T19:43:56",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/autoCode",
+      "parentId" : 1,
+      "sort" : 12,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 7,
+      "code" : "staff",
+      "name" : "人员表单",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-16T14:36:05",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/formView",
+      "parentId" : 1,
+      "sort" : 13,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 3,
+    "code" : "basic",
+    "name" : "基础管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:35",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "basic",
+    "parentId" : 0,
+    "sort" : 2,
+    "subMenuList" : [ {
+      "id" : 4,
+      "code" : "staff",
+      "name" : "人员管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:43",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/staff",
+      "parentId" : 3,
+      "sort" : 20,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 8,
+    "code" : "config",
+    "name" : "配置管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "config",
+    "parentId" : 0,
+    "sort" : 3,
+    "subMenuList" : [ {
+      "id" : 9,
+      "code" : "configView",
+      "name" : "页面配置",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T21:16:32",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/configView",
+      "parentId" : 8,
+      "sort" : 30,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  } ],
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}
+2021-12-06 10:56:45,148 [http-nio-8504-exec-7] INFO  -[AccoutSessionManager.java:41]- 使用从header获取sessionID为: 4527f4b9-191e-447f-b133-10d478a7316e
+2021-12-06 10:56:45,157 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:63]- URL            : http://127.0.0.1:8504/auth/web/menu/getAll
+2021-12-06 10:56:45,157 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:65]- HTTP Method    : GET
+2021-12-06 10:56:45,157 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:67]- Class Method   : com.jx.agile.auth.controller.menu.MenuController.getAll
+2021-12-06 10:56:45,158 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:69]- IP     : 127.0.0.1
+2021-12-06 10:56:45,159 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:71]- Request Args   : [ ]
+2021-12-06 10:56:45,177 [http-nio-8504-exec-7] INFO  -[LogInterceptor.java:110]- IP:127.0.0.1,request-url【http://127.0.0.1:8504/auth/web/menu/getAll】,Cost-Time：21,result:{
+  "status" : 200,
+  "message" : "操作成功",
+  "data" : [ {
+    "id" : 1,
+    "code" : "sys",
+    "name" : "系统管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "xtgl",
+    "parentId" : 0,
+    "sort" : 1,
+    "subMenuList" : [ {
+      "id" : 2,
+      "code" : "menu",
+      "name" : "菜单管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/menu",
+      "parentId" : 1,
+      "sort" : 10,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 5,
+      "code" : "account",
+      "name" : "账号管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:36",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/account",
+      "parentId" : 1,
+      "sort" : 11,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 6,
+      "code" : "autoCode",
+      "name" : "生成代码",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-09T19:43:56",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/autoCode",
+      "parentId" : 1,
+      "sort" : 12,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    }, {
+      "id" : 7,
+      "code" : "staff",
+      "name" : "人员表单",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-16T14:36:05",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/formView",
+      "parentId" : 1,
+      "sort" : 13,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 3,
+    "code" : "basic",
+    "name" : "基础管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:35",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "basic",
+    "parentId" : 0,
+    "sort" : 2,
+    "subMenuList" : [ {
+      "id" : 4,
+      "code" : "staff",
+      "name" : "人员管理",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T20:25:43",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "gl",
+      "path" : "/home/staff",
+      "parentId" : 3,
+      "sort" : 20,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  }, {
+    "id" : 8,
+    "code" : "config",
+    "name" : "配置管理",
+    "version" : 0,
+    "isEnabled" : true,
+    "remark" : "",
+    "createdTime" : "2021-03-08T18:41:41",
+    "createdBy" : 0,
+    "createdByName" : "",
+    "updatedTime" : "2021-03-08T21:16:32",
+    "updatedBy" : 0,
+    "updatedByName" : "",
+    "leaf" : false,
+    "icon" : "el-icon-menu",
+    "path" : "config",
+    "parentId" : 0,
+    "sort" : 3,
+    "subMenuList" : [ {
+      "id" : 9,
+      "code" : "configView",
+      "name" : "页面配置",
+      "version" : 0,
+      "isEnabled" : true,
+      "remark" : "",
+      "createdTime" : "2021-03-08T18:41:41",
+      "createdBy" : 0,
+      "createdByName" : "",
+      "updatedTime" : "2021-03-08T21:16:32",
+      "updatedBy" : 0,
+      "updatedByName" : "",
+      "leaf" : true,
+      "icon" : "el-icon-menu",
+      "path" : "/home/configView",
+      "parentId" : 8,
+      "sort" : 30,
+      "subMenuList" : null,
+      "hasSubMenu" : false
+    } ],
+    "hasSubMenu" : true
+  } ],
+  "exception" : null,
+  "bizInfo" : null,
+  "fail" : false,
+  "success" : true
+}

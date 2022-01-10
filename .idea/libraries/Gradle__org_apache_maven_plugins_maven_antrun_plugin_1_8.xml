@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.plugins:maven-antrun-plugin:1.8">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-antrun-plugin/1.8/d02c0af622aa6a0c86e81c519299e888e0a32a3/maven-antrun-plugin-1.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-antrun-plugin/1.8/fdf1b87dea17e4e44dffbd7f309949fa75703c73/maven-antrun-plugin-1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

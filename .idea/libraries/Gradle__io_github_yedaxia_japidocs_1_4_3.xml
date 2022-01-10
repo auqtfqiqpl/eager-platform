@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.yedaxia:japidocs:1.4.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.github.yedaxia/japidocs/1.4.3/21dcc10dfa5df3d9242f78bbafb3008b78a801da/japidocs-1.4.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.github.yedaxia/japidocs/1.4.3/7931b89953729d6756652b6a92bd7e2d1427e7b2/japidocs-1.4.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

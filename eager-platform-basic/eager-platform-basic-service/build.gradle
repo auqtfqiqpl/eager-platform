@@ -1,0 +1,15 @@
+
+dependencies {
+
+    compile project(":eager-platform-core")
+    compile project(":eager-platform-basic:eager-platform-basic-client")
+    compile project(":eager-platform-basic:eager-platform-basic-dao")
+
+    implementation 'org.springframework.cloud:spring-cloud-starter-openfeign'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-hystrix'
+    implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+    compile 'org.springframework.boot:spring-boot-starter-web:2.3.5.RELEASE'
+}

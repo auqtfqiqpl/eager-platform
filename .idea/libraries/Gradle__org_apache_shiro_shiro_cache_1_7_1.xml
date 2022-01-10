@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.shiro:shiro-cache:1.7.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.shiro/shiro-cache/1.7.1/be3a2be0d8ed76c067bbb6faff57e792d1a05738/shiro-cache-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.shiro/shiro-cache/1.7.1/9b9db15161d468d205cdeb14aecf27891805aabc/shiro-cache-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

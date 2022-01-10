@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.doxia:doxia-module-xhtml5:1.9.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-module-xhtml5/1.9.1/a3629e40a290897ec8a14b84ad7e7b2b6eb4e446/doxia-module-xhtml5-1.9.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-module-xhtml5/1.9.1/22e803ca77cd34ac684c901ae47fdb1ac0273456/doxia-module-xhtml5-1.9.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

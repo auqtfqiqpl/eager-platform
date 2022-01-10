@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="delegatedBuild" value="true" />
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../soft/gradle-6.3-bin/gradle-6.3" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eager-platform-auth" />
+            <option value="$PROJECT_DIR$/eager-platform-auth/eager-platform-auth-client" />
+            <option value="$PROJECT_DIR$/eager-platform-auth/eager-platform-auth-controller" />
+            <option value="$PROJECT_DIR$/eager-platform-auth/eager-platform-auth-dao" />
+            <option value="$PROJECT_DIR$/eager-platform-auth/eager-platform-auth-service" />
+            <option value="$PROJECT_DIR$/eager-platform-basic" />
+            <option value="$PROJECT_DIR$/eager-platform-basic/eager-platform-basic-client" />
+            <option value="$PROJECT_DIR$/eager-platform-basic/eager-platform-basic-controller" />
+            <option value="$PROJECT_DIR$/eager-platform-basic/eager-platform-basic-dao" />
+            <option value="$PROJECT_DIR$/eager-platform-basic/eager-platform-basic-service" />
+            <option value="$PROJECT_DIR$/eager-platform-code" />
+            <option value="$PROJECT_DIR$/eager-platform-common" />
+            <option value="$PROJECT_DIR$/eager-platform-common/eager-platform-common-client" />
+            <option value="$PROJECT_DIR$/eager-platform-common/eager-platform-common-controller" />
+            <option value="$PROJECT_DIR$/eager-platform-configure" />
+            <option value="$PROJECT_DIR$/eager-platform-configure/eager-platform-configure-client" />
+            <option value="$PROJECT_DIR$/eager-platform-configure/eager-platform-configure-controller" />
+            <option value="$PROJECT_DIR$/eager-platform-configure/eager-platform-configure-dao" />
+            <option value="$PROJECT_DIR$/eager-platform-configure/eager-platform-configure-service" />
+            <option value="$PROJECT_DIR$/eager-platform-core" />
+            <option value="$PROJECT_DIR$/eager-platform-eurake" />
+            <option value="$PROJECT_DIR$/eager-platform-gateway" />
+          </set>
+        </option>
+        <option name="useQualifiedModuleNames" value="true" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

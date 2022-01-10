@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jx.agile.auth.mysql.mapper.FunctionMapper">
+
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jx.agile.auth.client.function.model.entity.Function">
+        <id column="id" property="id" />
+        <result column="code" property="code" />
+        <result column="name" property="name" />
+        <result column="api" property="api" />
+        <result column="tenancy_id" property="tenancyId" />
+        <result column="is_enabled" property="isEnabled" />
+        <result column="remark" property="remark" />
+        <result column="created_time" property="createdTime" />
+        <result column="created_by" property="createdBy" />
+        <result column="created_by_name" property="createdByName" />
+        <result column="updated_time" property="updatedTime" />
+        <result column="updated_by" property="updatedBy" />
+        <result column="updated_by_name" property="updatedByName" />
+        <result column="version" property="version" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, code, name, api, tenancy_id, is_enabled, remark, created_time, created_by, created_by_name, updated_time, updated_by, updated_by_name, version
+    </sql>
+
+</mapper>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.htools:htools:0.27">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.github.htools/htools/0.27/1cc313d90814baf58aa5e907e47d2205ab1d520d/htools-0.27.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.github.htools/htools/0.27/2cf7a9d69c003f37ad2c4a51cdfcd11ef40751cb/htools-0.27-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

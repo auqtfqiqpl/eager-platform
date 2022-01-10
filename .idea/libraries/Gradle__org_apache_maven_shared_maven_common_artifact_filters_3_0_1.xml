@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.shared:maven-common-artifact-filters:3.0.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.shared/maven-common-artifact-filters/3.0.1/1a98d8e3d5610bb0abf09a7756195e8b2ed215e5/maven-common-artifact-filters-3.0.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-common-artifact-filters/3.0.1/maven-common-artifact-filters-3.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.shared/maven-common-artifact-filters/3.0.1/bea51de71f44dbc129b6ae3d4d6b11a8a8cdf732/maven-common-artifact-filters-3.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

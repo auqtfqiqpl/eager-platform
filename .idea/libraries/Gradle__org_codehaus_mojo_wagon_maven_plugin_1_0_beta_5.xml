@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.mojo:wagon-maven-plugin:1.0-beta-5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.codehaus.mojo/wagon-maven-plugin/1.0-beta-5/8bc5b0ff8e7c62c90b656afe9b371395ddb2525a/wagon-maven-plugin-1.0-beta-5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.codehaus.mojo/wagon-maven-plugin/1.0-beta-5/42707d729b6b957b583336973c0cd61024e23e85/wagon-maven-plugin-1.0-beta-5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

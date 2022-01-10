@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.shiro:shiro-config-ogdl:1.7.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.shiro/shiro-config-ogdl/1.7.1/6ea62803f735afd96f75dc84b3578752be6127a6/shiro-config-ogdl-1.7.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.shiro/shiro-config-ogdl/1.7.1/d1973fa0a200a2ac8cd4f5d58b89c522de516df1/shiro-config-ogdl-1.7.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

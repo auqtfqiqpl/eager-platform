@@ -1,0 +1,2 @@
+2021-12-01 16:04:43,291 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2021-12-01 16:05:01,340 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 21.169 seconds (JVM running for 24.92)

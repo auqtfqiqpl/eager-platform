@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven:maven-compat:2.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven/maven-compat/2.2.1/1ce11fccd3c94d0d1ee861bd4237b210acd2c2ed/maven-compat-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven/maven-compat/2.2.1/35c7bed9c1449b13c020913c2b7bd7772d161dd0/maven-compat-2.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

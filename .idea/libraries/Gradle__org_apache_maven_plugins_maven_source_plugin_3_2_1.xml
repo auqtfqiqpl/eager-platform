@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.plugins:maven-source-plugin:3.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-source-plugin/3.2.1/17fea4399d3e67d83435471ba80e42ec61d5e7ce/maven-source-plugin-3.2.1.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/plugins/maven-source-plugin/3.2.1/maven-source-plugin-3.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-source-plugin/3.2.1/e9b22092ab3d389e83c8e5d3311cb2fd275eb9f9/maven-source-plugin-3.2.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

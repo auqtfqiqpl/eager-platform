@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.0/4cbc5be82d92e87f8db396f8e1f8c218f6dcce0e/maven-checkstyle-plugin-3.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.plugins/maven-checkstyle-plugin/3.1.0/4d2a4854d8089d364ca7c3dd90544f20f626ff84/maven-checkstyle-plugin-3.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

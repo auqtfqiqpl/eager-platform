@@ -1,0 +1,32 @@
+rootProject.name = 'eager-platform'
+
+include 'eager-platform-core'
+
+include 'eager-platform-eurake'
+include 'eager-platform-gateway'
+include 'eager-platform-code'
+include 'eager-platform-common'
+
+include 'eager-platform-common:eager-platform-common-client'
+include 'eager-platform-common:eager-platform-common-controller'
+
+include 'eager-platform-basic'
+include 'eager-platform-basic:eager-platform-basic-client'
+include 'eager-platform-basic:eager-platform-basic-service'
+include 'eager-platform-basic:eager-platform-basic-controller'
+include 'eager-platform-basic:eager-platform-basic-dao'
+
+
+include 'eager-platform-auth'
+include 'eager-platform-auth:eager-platform-auth-client'
+include 'eager-platform-auth:eager-platform-auth-service'
+include 'eager-platform-auth:eager-platform-auth-controller'
+include 'eager-platform-auth:eager-platform-auth-dao'
+
+include 'eager-platform-configure'
+include 'eager-platform-configure:eager-platform-configure-client'
+include 'eager-platform-configure:eager-platform-configure-controller'
+include 'eager-platform-configure:eager-platform-configure-service'
+include 'eager-platform-configure:eager-platform-configure-dao'
+include 'eager-platform-configure:eager-platform-configure-client'
+

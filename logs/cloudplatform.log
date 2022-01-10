@@ -1,0 +1,6 @@
+2022-01-01 16:08:36,225 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2022-01-01 16:08:43,263 [main] INFO  -[StartupInfoLogger.java:61]- Started CommonWebApplication in 8.474 seconds (JVM running for 11.581)
+2022-01-01 16:20:33,700 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2022-01-01 16:20:41,343 [main] INFO  -[StartupInfoLogger.java:61]- Started BasicWebApplication in 9.304 seconds (JVM running for 12.397)
+2022-01-03 09:52:53,288 [main] INFO  -[SpringApplication.java:651]- No active profile set, falling back to default profiles: default
+2022-01-03 09:53:06,524 [main] INFO  -[StartupInfoLogger.java:61]- Started AuthWebApplication in 15.258 seconds (JVM running for 18.335)

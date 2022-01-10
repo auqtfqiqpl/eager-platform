@@ -1,0 +1,128 @@
+plugins {
+    id 'org.springframework.boot' version '2.3.5.RELEASE'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.jx.agile'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public/" }
+    mavenCentral()
+}
+
+ext {
+    set('springCloudVersion', "Hoxton.SR8")
+    set('springBootVersion', "2.3.5.RELEASE")
+}
+
+dependencies {
+    implementation 'org.springframework.cloud:spring-cloud-starter-config'
+    testImplementation('org.springframework.boot:spring-boot-starter-test') {
+        exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+    }
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+    }
+}
+allprojects{
+
+}
+// 所有子项目的通用配置
+subprojects {
+
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    version = '1.0-SNAPSHOT'
+    ext {
+        set('springCloudVersion', "Hoxton.SR8")
+        set('mybatisPlusVersion', "3.1.0")
+        set('jacksonVersion','2.12.1')
+        set('ormVersion','5.2.10.RELEASE')
+    }
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.springframework.cloud:spring-cloud-dependencies:${springCloudVersion}"
+        }
+    }
+    // JVM 版本号要求
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    jar.enabled = true
+
+    // java编译的时候缺省状态下会因为中文字符而失败
+    [compileJava, compileTestJava, javadoc]*.options*.encoding = 'UTF-8'
+
+    repositories {
+        mavenLocal()
+        maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+        mavenCentral()
+        jcenter()
+        maven { url "http://repo.spring.io/snapshot" }
+        maven { url "http://repo.spring.io/milestone" }
+        maven { url 'http://maven.springframework.org/release' }
+        maven { url 'http://maven.springframework.org/milestone' }
+    }
+
+    jar {
+        manifest {
+            attributes("Implementation-Title": "Gradle")
+        }
+    }
+
+    dependencies {
+        compile 'org.springframework.cloud:spring-cloud-starter'
+        testCompile 'org.springframework.boot:spring-boot-starter-test'
+        compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.11'
+        compile group: 'org.apache.commons', name: 'commons-collections4', version: '4.4'
+        compile group: 'org.projectlombok', name: 'lombok', version: '1.18.18'
+        annotationProcessor("org.projectlombok:lombok:1.18.18")
+
+        compile 'org.springframework.boot:spring-boot-starter-web'
+        compile 'org.springframework.boot:spring-boot-starter-aop'
+        compile 'org.springframework.boot:spring-boot-starter-logging'
+        testImplementation('org.springframework.boot:spring-boot-starter-test') {
+            exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
+        }
+        compile "org.springframework:spring-orm:${ormVersion}"
+        compile "com.baomidou:mybatis-plus-boot-starter:${mybatisPlusVersion}"
+        compile 'com.baomidou:mybatis-plus-generator:3.1.2'
+        compile 'org.apache.velocity:velocity-engine-core:2.2'
+        compile 'org.freemarker:freemarker:2.3.31'
+        compile 'com.ibeetl:beetl:3.3.2.RELEASE'
+
+        compile 'io.github.yedaxia:japidocs:1.4.3'
+        //compile  'org.slf4j:slf4j-api:1.7.21'
+       // implementation 'org.slf4j:slf4j-api:1.7.25'
+        implementation "com.fasterxml.jackson.core:jackson-databind:${jacksonVersion}"
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: jacksonVersion
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: jacksonVersion
+        compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: jacksonVersion
+        // 引入XML功能
+        compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: jacksonVersion
+        // 比JDK自带XML实现更高效的类库
+        compile group: 'com.fasterxml.woodstox', name: 'woodstox-core', version: '5.1.0'
+        // Java 8 新功能
+        compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: jacksonVersion
+        compile group: 'com.fasterxml.jackson.module', name: 'jackson-module-parameter-names', version: jacksonVersion
+        compile group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jdk8', version: jacksonVersion
+
+        compile group: 'mysql', name: 'mysql-connector-java', version: '8.0.23'
+
+        implementation group: 'io.springfox', name: 'springfox-swagger2', version: '3.0.0'
+        implementation group: 'io.github.htools', name: 'htools', version: '0.27'
+
+
+    }
+}

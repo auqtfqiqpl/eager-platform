@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jx.agile'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile project(":eager-platform-basic:eager-platform-basic-client")
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}

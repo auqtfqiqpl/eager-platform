@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.hbase:hbase-client:0.98.4-hadoop2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.hbase/hbase-client/0.98.4-hadoop2/77a995c02ef1b94462f4dfc8370a4febd60ceda0/hbase-client-0.98.4-hadoop2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.hbase/hbase-client/0.98.4-hadoop2/1a5e42280d54273591cd14a5fc2f9666b2a25d03/hbase-client-0.98.4-hadoop2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

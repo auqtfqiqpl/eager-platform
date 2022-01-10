@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.codehaus.plexus:plexus-resources:1.1.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-resources/1.1.0/503d473a949a338986104f209a9f805637ffcebf/plexus-resources-1.1.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.codehaus.plexus/plexus-resources/1.1.0/543c1a3a67c0589b9b592d35558f9ba01b287001/plexus-resources-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,8 @@
+server:
+  port: 8100
+  servlet:
+    context-path: /build
+
+spring:
+  application:
+    name: auto-code-application

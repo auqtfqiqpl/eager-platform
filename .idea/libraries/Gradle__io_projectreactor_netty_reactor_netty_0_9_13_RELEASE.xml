@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: io.projectreactor.netty:reactor-netty:0.9.13.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.9.13.RELEASE/1c29a782629ef71ff7c7b7332c9fc66860ea062a/reactor-netty-0.9.13.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/io.projectreactor.netty/reactor-netty/0.9.13.RELEASE/c74edb77f8c10a8bc58a41aa548d695ec295c43a/reactor-netty-0.9.13.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

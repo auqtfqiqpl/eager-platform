@@ -1,0 +1,14 @@
+server:
+  port: 8601
+  servlet:
+    context-path: /common/web
+
+spring:
+  application:
+    name: common-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:8761/eureka
+logging:
+  config: classpath:logback.xml

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.ibeetl:beetl:3.3.2.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.ibeetl/beetl/3.3.2.RELEASE/f4af20e54ce4c833145cd22a7df80c0a9e65e070/beetl-3.3.2.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.ibeetl/beetl/3.3.2.RELEASE/f90b4524c347a5d315962ff686238eb451d85499/beetl-3.3.2.RELEASE-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

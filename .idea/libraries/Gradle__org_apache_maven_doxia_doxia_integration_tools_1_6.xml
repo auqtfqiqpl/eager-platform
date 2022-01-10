@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.maven.doxia:doxia-integration-tools:1.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-integration-tools/1.6/aa12128117facfa64c1ac8b8f70c6cf1dbf8b5ca/doxia-integration-tools-1.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/doxia/doxia-integration-tools/1.6/doxia-integration-tools-1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/org.apache.maven.doxia/doxia-integration-tools/1.6/2426693c9aaafe6f4e56fad9073050adbca4e741/doxia-integration-tools-1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

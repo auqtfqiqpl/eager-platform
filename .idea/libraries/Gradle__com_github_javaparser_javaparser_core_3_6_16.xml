@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.javaparser:javaparser-core:3.6.16">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.6.16/dcd239c4c1c65d818856c5b6f959167885e84d83/javaparser-core-3.6.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../eager-platform-cache/caches/modules-2/files-2.1/com.github.javaparser/javaparser-core/3.6.16/4e4a6d74162a79e7d2877ea004ca08b28511edba/javaparser-core-3.6.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
